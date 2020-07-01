@@ -1,0 +1,32 @@
+{
+  "name": "authentication-nodejs-mongoose",
+  "version": "1.0.0",
+  "description": "The API based on Node.js, Express, MongoDB &amp; Redis, following the MVC pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandynem/authentication-nodejs-mongoose.git"
+  },
+  "author": "Nem Vandy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vandynem/authentication-nodejs-mongoose/issues"
+  },
+  "homepage": "https://github.com/vandynem/authentication-nodejs-mongoose#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2"
+  }
+}
